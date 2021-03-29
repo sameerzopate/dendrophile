@@ -44,7 +44,7 @@
 }
 
 .fa-bars {
-    color: #fff;
+    color: #0a5a0a;
 }
 
 .nav-links-mobile {
@@ -73,7 +73,7 @@
     }
 
     .nav-menu.active {
-        background: #0a5a0a;;
+        background: #ffffff;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -110,7 +110,7 @@
     }
 
     .fa-times {
-        color: #fff;
+        color: #0a5a0a;
         font-size: 2rem;
     }
 
