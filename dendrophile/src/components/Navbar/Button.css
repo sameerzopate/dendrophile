@@ -1,20 +1,22 @@
 :root {
-    --primary: transparent;
+    --primary: #E5E5E5;
+    --secondary: #0a5a0a;
 }
 
 .btn {
-    display: none;
+    display: inline;
     padding: 8px 20px;
     border-radius: 4px;
     outline: none;
     border: none;
     cursor: pointer;
+    color: #fff;
 }
 
 .btn:hover {
     padding: 8px 20px;
     transition: all 0.3s ease-out;
-    background: #0a5a0a;
+    background: var(--secondary);
     color: #fff;
     transition: 250ms;
 }
@@ -36,7 +38,7 @@
     padding: 8px 20px;
     border-radius: 4px;
     font-size: 18px;
-    color: #0a5a0a;
+    color: black;
 }
 
 .btn-large {
