@@ -1,18 +1,11 @@
-import React from 'react';
+
 import './App.css';
-import Form from './Components/Form/Form';
-import Navbar from "./Components/Navbar/Navbar";
-import Administration from './Components/Administration/Administration';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import CompanyDetails from './Components/Administration/AddCompany/CompanyDetails';
-import Header from './Components/Administration/Header';
-import ViewCompany from './Components/Administration/ViewCompany/ViewCompany';
-import WasteManagementDetails from './Components/Administration/AddCompany/WasteManagementDetails';
-import SelectedCompanyDetails1 from './Components/Administration/ViewCompany/SelectedCompanyDetails1';
-import SelectedCompanyDetails2 from './Components/Administration/ViewCompany/SelectedCompanyDetails2';
+import Form from './components/Form/Form';
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
+<<<<<<< HEAD
     <Router>
       <div className="App">
         <Header/>
@@ -46,6 +39,12 @@ function App() {
       </div>
       
     </Router>
+=======
+    <div className="App">
+     <Navbar />
+     <Form />
+    </div>
+>>>>>>> parent of 7dcb097 (Update App.js)
   );
 }
 
