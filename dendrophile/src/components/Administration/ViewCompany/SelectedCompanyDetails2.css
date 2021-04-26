@@ -1,0 +1,10 @@
+.box-2st-Page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 27px;
+    background: #B4CCAD;
+    border-radius: 10px;
+    margin-left: 12px;
+}

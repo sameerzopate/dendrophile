@@ -1,0 +1,31 @@
+.logo{
+    position: relative;
+    width: 272px;
+    height: 67px;
+    left: 49px;
+    top: 35px;
+  }
+  .p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 21px;
+    margin-top: 33px;
+    color: #254117;
+  }
+  .Top-bar{
+    display: flex;
+    height: 136px;
+  }
+  .Top-bar-right{
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+  }
+  .logo>img:hover{
+    -webkit-filter: drop-shadow(1px 1px 1px #222 );
+  filter: drop-shadow(1px 1px 1px #222);
+  }
