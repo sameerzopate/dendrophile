@@ -1,27 +1,27 @@
 const MenuItems= [
     {
         title: "Home",
-        url: "#",
+        url: "/admin",
         cName : "nav-links"
     },
     {
         title: "Green Services",
-        url: "#",
+        url: "greenservices",
         cName : "nav-links"
     },
     {
         title: "Green Products",
-        url: "#",
+        url: "greenproducts",
         cName : "nav-links"
     },
     {
         title: "About Us",
-        url: "#",
+        url: "aboutus",
         cName : "nav-links"
     },
     {
         title: "Contact Us",
-        url: "#",
+        url: "contactus",
         cName : "nav-links"
     }
 ]
