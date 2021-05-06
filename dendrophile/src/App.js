@@ -3,6 +3,7 @@ import Form from './components/Form/Form';
 import Navbar from "./components/Navbar/Navbar";
 import Administration from "./components/Administration/Administration";
 import AddCompany from "./components/AddCompany/AddCompany";
+import ViewCompany from "./components/ViewCompany/ViewCompany";
 import {
   BrowserRouter as Router,
   Switch, 
@@ -23,6 +24,10 @@ function App() {
 
             <Route exact path="/addcompany">
               <AddCompany />
+            </Route>
+
+            <Route exact path="/viewcompany">
+              <ViewCompany />
             </Route>
 
             <Route path="/">

@@ -17,7 +17,7 @@ function Administration() {
                 <AdminButtons name="viewwastecollector"/>
                 <AdminButtons name="totalwastegeneration"/>
                 <AdminButtons name="totalwastecollection"/>
-                </div>
+            </div>
         </div>
     )
 }
