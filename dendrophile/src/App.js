@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Administration from "./components/Administration/Administration";
 import AddCompany from "./components/AddCompany/AddCompany";
 import ViewCompany from "./components/ViewCompany/ViewCompany";
+import SavedEnv from "./components/SavedEnvironment/SavedEnv";
 import {
   BrowserRouter as Router,
   Switch, 
@@ -28,6 +29,10 @@ function App() {
 
             <Route exact path="/viewcompany">
               <ViewCompany />
+            </Route>
+
+            <Route exact path="/savedEnvironment">
+              <SavedEnv />
             </Route>
 
             <Route path="/">
