@@ -1,0 +1,12 @@
+.envDetails {
+    margin: 1.3rem 1.5rem;
+    font-family: "Poppins";
+}
+
+.envDetails__data > h3{
+    font-size: 1.7rem;
+}
+
+.envDetails__data > p {
+    font-size: 1.3rem;
+}
