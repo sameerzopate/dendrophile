@@ -1,0 +1,25 @@
+.viewAnalysis__main {
+    margin: 4rem 0rem;
+}
+
+.viewAnalysis__main--pie > div{
+    width: 80%;
+}
+
+@media only screen and (min-width:1000px) {
+    .viewAnalysis__main {
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 1fr 60% 1fr;
+    }
+
+    .viewAnalysis__main--detail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .viewAnalysis__main--pie > div {
+        padding-left: 15%;
+    }
+}
