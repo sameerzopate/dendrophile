@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+.app__main > div > div > hr {
+    height: 3px;
+    background-color: black;
+    border-radius: 10px;
+    width: 80px;
+    height: 5px;
+}
+
+.app__main > div > div > h1 {
+    font-size: 2.5rem;
+    font-family: 'Poppins';
+}
+
+.administration__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 3rem 0rem;
+}

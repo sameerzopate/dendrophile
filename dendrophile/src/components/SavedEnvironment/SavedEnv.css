@@ -1,0 +1,24 @@
+.savedEnv > div > h2{
+    font-size: 1.5rem;
+    font-family: "Poppins";
+}
+
+.savedEnv__details {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 3rem 0rem;
+}
+
+@media only screen and (min-width: 600px) {
+    .savedEnv__details {
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 5rem 0rem;
+    }
+
+    .savedEnv > div > h2 {
+        font-size: 2rem;
+    }
+}
