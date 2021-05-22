@@ -4,11 +4,11 @@ import SearchCompany from "./SearchCompany";
 import DivisionPie from "./DivisionPie";
 import "./ViewCompany.css";
 
-function ViewCompany() {
+function ViewCompany(props) {
     return (
         <div className="viewCompany">
             <div>
-                <h1>Nirma</h1>
+                <h1>{props.name}</h1>
                 <hr />
             </div>
 
