@@ -29,15 +29,27 @@ function App() {
             </Route>
 
             <Route exact path="/viewcompany">
-              <ViewCompany />
+              <ViewCompany name="Company's Data"/>
             </Route>
 
-            <Route exact path="/savedEnvironment">
+            <Route exact path="/savedEnvironmentAdmin">
               <SavedEnv />
             </Route>
 
-            <Route exact path="/viewAnalysis">
+            <Route exact path="/viewAdminAnalysis">
               <ViewAnalysis />
+            </Route>
+
+            <Route exact path="/viewAdmin" >
+              <ViewCompany name="Nirma" />
+            </Route>
+
+            <Route exact path="/viewCompanyAnalysis">
+              <ViewAnalysis />
+            </Route>
+
+            <Route exact path="/savedEnvironmentCompany">
+              <SavedEnv />
             </Route>
 
             <Route path="/">
