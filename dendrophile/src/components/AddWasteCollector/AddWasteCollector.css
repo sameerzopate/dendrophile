@@ -1,0 +1,169 @@
+.AddWasteCollector-name-box{
+    
+    width: 65px;
+    height: 66px;
+    border-bottom: 4px solid #000000;
+    margin-bottom: 73px;
+    margin-top: 2px;
+    margin-left: 87px;
+}
+.AddWasteCollector-name-box>p{
+    width: 489px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    color: #000000;
+}
+.horizontal-line{
+  
+    width: 1067px;
+    height: 0px;
+    left: 1219px;
+    top: 650px;
+
+    border: 1px solid #000000;
+    margin-left: 75px;
+    margin-top: 28px;
+}
+.below-form{
+    display: flex;
+    justify-content: center;
+}
+.Type-of-Waste-Weight-Price-box{
+    width: 149px;
+    height: 60px;
+    
+    
+
+    margin-right: 18px;
+    
+}
+.Type-of-Waste-Weight-Price-box>label{
+    font-style: normal; 
+    font-family: Manuale;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+}
+.first-form-on-right{
+   display: flex;
+}
+.select-type{
+    width: 87px;
+    height: 27px;
+    margin-top: 9px;
+}
+.weight{
+    margin-top: 9px;
+    margin-left: 20px;
+    width: 94px;
+    height: 27px;
+}
+.Price{
+    width: 56px;
+    height: 27px;
+    margin-left: 15px;
+    margin-top: 9px;
+}
+
+.plus-button>button{
+    display: flex;
+    background: #333333;
+    width: 27px;
+    height: 27px;
+    border-radius: 11px;
+    color:#b4ccad;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.plus-button{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.left-side-below-form{
+    margin-left: 112px;
+    margin-right: 86px;
+}
+.below-form{
+    margin-top: 20px;
+    position: absolute;
+    width: 100%;
+}
+.box4{
+    position: relative;
+    width: 1231px;
+    height: 647px;
+    background: rgba(101, 150, 88, 0.49);
+    border-radius: 30px;
+}
+.common-class4{
+    margin-top: 20px;
+}
+.Collector-Name{
+    margin-left: 65px;
+}
+.Vehicle-Name{
+    margin-left: 81px;
+}
+.Vehicle-Type{
+    margin-left: 88px;
+}
+.Collected-By{
+    margin-right: 81px;
+    font-family: Manuale;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+    color: #000000;
+}
+.sam1{
+    width: 169px;
+}
+.Vehicle-Number{
+    margin-right: 52px;
+    font-family: Manuale;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+    color: #000000;
+}
+.sam2{
+    width: 169px;
+}
+.Add-Vehical>button{
+    display: flex;
+    background: #333333;
+    width: 36px;
+    height: 35px;
+    border-radius: 11px;
+    color:#b4ccad;
+    font-size: 45px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 29px;
+}
+.Add-Vehical{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.Add-Vehical>p{
+    font-family: Manuale;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+
+    color: #000000;
+
+}

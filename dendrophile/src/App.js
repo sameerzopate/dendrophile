@@ -17,6 +17,9 @@ function App() {
           <Route path="/admin">
             <Administration />
           </Route>
+          <Route path="/CollectWaste">
+                <CollectWaste/>
+            </Route>
           <Route path="/addcompany">
             <AddCompany />
           </Route>
@@ -35,6 +38,41 @@ function App() {
           <Route exact path="/viewAdmin">
             <ViewCompany name="Nirma" />
           </Route>
+          {/* use as necessary below root and don't forget to import*/}
+          <Route path="/Form">
+                <Form />
+          </Route>
+          <Route path="/Navbar">
+                <Navbar />
+            </Route>
+            <Route path="/SelectedCompanyDetails3">
+                <SelectedCompanyDetails3/>
+            </Route>
+            <Route path="/TotalWasteCollection">
+                <TotalWasteCollection/>
+            </Route>
+            <Route path="/ViewWasteCollector">
+                <ViewWasteCollector/>
+            </Route>
+            <Route path="/AddWasteCollector">
+                <AddWasteCollector />
+            </Route>
+            <Route path="/SelectedCompanyDetails2">
+                <SelectedCompanyDetails2/>
+            </Route>
+            <Route path="/SelectedCompanyDetails1">
+                <SelectedCompanyDetails1/>
+            </Route>
+            <Route path="/ViewCompany">
+                <ViewCompany/>
+            </Route>
+            <Route path="/WasteManagementDetails">
+                <WasteManagementDetails/>
+            </Route>
+            <Route path="/CompanyDetails">
+                <CompanyDetails/>
+            </Route>
+            {/* up to this  */}
 
           <Route exact path="/viewCompanyAnalysis">
             <ViewAnalysis />

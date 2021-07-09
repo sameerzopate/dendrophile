@@ -1,0 +1,32 @@
+.View-Waste-Collector-box{
+    
+    width: 65px;
+    height: 66px;
+    border-bottom: 4px solid #000000;
+    margin-bottom: 73px;
+    margin-top: 2px;
+    margin-left: 87px;
+}
+.View-Waste-Collector-box>p{
+    width: 510px;
+    line-height: 75px;
+    color: #000000;
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+}
+.All-input-4{
+    width: 238px;
+    height: 33px;
+    margin-left: 24px;
+    font-family: Manuale;
+    font-style: italic;
+    font-weight: 250;
+    font-size: 24px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}

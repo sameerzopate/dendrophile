@@ -1,0 +1,175 @@
+.WasteManagementDetails-heading-box{
+    width: 326px;
+    height: 36px;
+    font-family: Manuale;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 36px;
+    color: #020202;
+    margin-left: 48px;
+    margin-top: 22px;
+    margin-bottom: 33px;
+}
+.WasteManagementDetails-Forms-zone{
+    display: flex;
+    justify-content: space-evenly;
+}
+.WasteManagementDetails-all-labels{
+    font-family: Manuale;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+
+    color: #000000;
+}
+.Email-ID>label{
+    margin-right: 153px;
+}
+.ID-No>label{
+    margin-right: 176px;
+}
+.Password>label{
+    margin-right: 149px;
+}
+.Division>label{
+    margin-right: 161px;
+}
+.Timeline>label{
+    margin-right: 153px;
+}
+.Timeline{
+    display: flex;
+}
+.checkboxes2>div>label{
+    font-family: Manuale;
+    font-style: normal;
+    font-weight: 520;
+    font-size: 21px;
+    line-height: 30px;
+
+    color: #000000;
+
+}
+.Daily{
+    margin-right: 37px;
+}
+.Weekly{
+    margin-right: 37px;
+    margin-left: 11px;
+}
+.Monthly{
+    margin-right: 12px;
+}
+.Random{
+    margin-right: 30px;
+    margin-left: 11px;
+}
+.checkboxes2>div>input{
+    width: 20px;
+    height: 20px;
+}
+.bottom-checkbox{
+    margin-top: 20px;
+}
+.Type-of-Waste>label{
+    margin-right: 106px;
+    
+}
+.Environment-Impact>label{
+    margin-right: 44px;
+}
+
+.Type-of-Waste>select{
+    width: 297px;
+}
+.Environment-Impact>select{
+    width: 297px;
+}
+.HK-Supervisor>label{
+    margin-right: 88px;
+}
+
+
+.Supervisor-Mo-No>label{
+    margin-right: 52px;
+}
+.Password>label{
+    margin-right: 141px;
+}
+
+.Supervisor-Mo-No>select{
+    width: 297px;
+}
+.Password>select{
+    width: 297px;
+}
+.common-class2{
+    margin-top: 20px;
+}
+.common-class2>input{
+    width: 297px;
+    height: 21px;
+}
+.Division2>label{
+    margin-right: 152px;
+}
+.Add-Supervisor>p{
+    font-family: Manuale;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+
+    color: #000000;
+
+}
+.Add-Supervisor>button{
+    display: flex;
+    background: #333333;
+    width: 40px;
+    height: 39px;
+    border-radius: 11px;
+    color:#b4ccad;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 29px;
+}
+.Add-Supervisor{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.back-and-save-buttons{
+    display: flex;
+    width: 100%;
+    margin-bottom: 40px;
+   
+}
+
+.Back-button{
+    position: relative;
+    left: 471px;
+    margin-right: 61px;
+    margin-top: 39px;
+    background: #B4CCAD;
+    border: 5px solid #0A5A0A;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 173px;
+    height: 74px;
+    font-family: Manuale;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+
+}
